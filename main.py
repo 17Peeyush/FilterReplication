@@ -211,13 +211,13 @@ def sepia_filter(image):
 
 def main():
     original = SimpleImage('a.jpg')
-    # ghost_filter(original)
-    # negative_filter(original)
+    ghost_filter(original)
+    negative_filter(original)
     sepia_filter(original)
-    # brightness(original, 20)
-    # blue_filter(original, 30)
-    # gray_filter(original)
-    # green_filter(original, 45)
+    brightness(original, 20)
+    blue_filter(original, 30)
+    gray_filter(original)
+    green_filter(original, 45)
 
 if __name__ == '__main__':
     main()
